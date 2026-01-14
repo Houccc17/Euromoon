@@ -1,0 +1,52 @@
+US1: Passagiersregistratie
+User Story: Als baliemedewerker wil ik passagiers kunnen registreren, zodat hun gegevens correct in het systeem staan voor de ticketverkoop.
+
+Acceptance Criteria:
+
+AC 1.1: Het systeem accepteert enkel letters voor voor- en achternaam.
+
+AC 1.2: De geboortedatum moet worden ingevoerd in formaat DD.MM.JJJJ.
+
+AC 1.3: Het Rijksregisternummer moet exact 15 tekens lang zijn.
+
+AC 1.4: Het Rijksregisternummer moet verplicht beginnen met de prefix van de geboortedatum (JJ.MM.DD).
+
+US2: Reisbeheer
+User Story: Als reisplanner wil ik een nieuwe reis kunnen aanmaken tussen Europese steden, zodat reizigers tickets kunnen boeken.
+
+Acceptance Criteria:
+
+AC 2.1: De gebruiker kan enkel kiezen uit Brussel, Amsterdam en Parijs.
+
+AC 2.2: Het vertrekpunt en het eindpunt mogen niet identiek zijn.
+
+AC 2.3: De datum en het uur van vertrek moeten in het formaat DD.MM.JJJJ HH:mm worden ingevoerd.
+
+US3: Trein- en Personeelskoppeling
+User Story: Als logistiek manager wil ik een specifieke trein en het nodige personeel aan een reis koppelen, zodat de veiligheid en capaciteit gegarandeerd zijn.
+
+Acceptance Criteria:
+
+AC 3.1: Er kan gekozen worden tussen locomotief Class 373 (12 wagons) of Class 374 (14 wagons).
+
+AC 3.2: Een reis mag pas als "OK" gemarkeerd worden als er minstens 1 bestuurder en 3 stewards zijn toegewezen.
+
+US4: Ticketverkoop
+User Story: Als loketbediende wil ik tickets kunnen verkopen in verschillende klassen, zodat passagiers hun gewenste comfortniveau kunnen kiezen.
+
+Acceptance Criteria:
+
+AC 4.1: Er is keuze tussen 1ste klasse en 2de klasse.
+
+AC 4.2: Er mogen niet meer dan 80 tickets per reis verkocht worden (maximale capaciteit).
+
+US5: Boardinglijst Genereren
+User Story: Als conducteur wil ik een boardinglijst kunnen exporteren, zodat ik bij het instappen de passagiers kan controleren.
+
+Acceptance Criteria:
+
+AC 5.1: Het systeem genereert een .txt bestand.
+
+AC 5.2: De bestandsnaam volgt het formaat: Vertrek_Aankomst_Tijdstip.txt.
+
+AC 5.3: De lijst bevat per passagier de naam, het RR-nummer en de gekozen klasse.
